@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(26, 26, 26);
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(17, 21, 23);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    margin-top: -30px;
+}
+.div1,.div3{
+    font-size: 30px;
+    margin: 10px;
+}
+.div2{
+    margin: 10px;
+}
+.container hr{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+.container .p span{
+    text-align: center;
+    background-color:  rgb(26, 26, 26);
+    margin-left: 35%;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 16%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container2{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+}
+.container2 .liste ul{
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+}
+.container2 .liste a{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.container2 .liste .afc{
+    border: 1px solid #fff;
+}
+.container2 .liste a:hover{
+    border: 1px solid #fff
+}
+.container2 .table{
+    position: absolute;
+    top: 80px;
+    left: 20%;
+}
+.container2 .table button{
+    background-color: rgb(41, 154, 41);
+    padding: 10px 50px;
+    border: none;
+}
+.container2 .table button:hover{
+    background-color: red;
+}
+.container2 .table img:hover{
+    scale: 1.1;
+    translate: 0 -20px;
+}
+.container2 .table td p{
+    margin: 10px;
+}
+.container2 .table td span{
+    color: gray;
+}
+footer{
+    position: absolute;
+    top: 750px;
+    width: 90vw;
+}
+.liste2{
+    width: 100%;
+}
+.liste2 ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+i:hover{
+    scale: 1.1;
+}

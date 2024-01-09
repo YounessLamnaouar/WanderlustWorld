@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: orange;
+}
+body{
+    background-color: #000;
+}
+.banniere{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+.banniere h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    margin: 20px 0;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: orange;
+}
+.list{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid orange;
+    padding: 10px 50px;
+}
+.ul1,.ul2,.ul3{
+    height: 70px;
+    overflow: hidden;
+    transition: 2s ease;
+}
+.ul1:hover,.ul2:hover,.ul3:hover{
+    height: 300px;
+}
+.ul1 a,.ul2 a,.ul3 a{
+    border: 2px orange solid;
+    padding: 10px 50px;
+}
+.cart{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.divv1,.divv2,.divv3{
+    text-align: center;
+    border: 3px solid orange;
+    padding: 20px 10px;
+    overflow: hidden;
+ 
+}
+.divv1:hover,.divv2:hover,.divv3:hover{
+    box-shadow: 2px 2px 20px orange;
+    scale: 1.03;
+}
+

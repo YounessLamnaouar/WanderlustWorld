@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #000;
+    color: #000;
+    width: 35%;
+    height: 70vh;
+    animation: login 3s ease 1s 1 forwards;
+    position: absolute;
+    left: 32.5%;
+    top: -100%;
+    
+}
+@keyframes login{
+    0%{
+        top: -100%;
+    }
+    20%{
+        top: 20%;
+    }
+    25%{
+        top: 20%;
+    }
+    30%{
+        top: 20%;
+    }
+    40%{
+        top: 20%;
+    }
+    50%{
+        top: 20%;
+    }
+    60%{
+        rotate: -2deg;top: 20%;
+    }
+    70%{
+        rotate: 2deg;top: 20%;
+    }
+    80%{
+        rotate: -2deg;top: 20%;
+    }
+    90%{
+        rotate: 2deg;top: 20%;
+    }
+    100%{
+        rotate: 0deg;top: 20%;
+    }
+}
+.login form{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login form input{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 80px;
+    background-color: greenyellow;
+    color: #000;
+    border:1px solid #000;
+    border-radius: 20px;
+    outline: none;
+}
+.login form input[type="submit"]{
+    background-color: #00000088;
+    border: 3px solid greenyellow;
+    border-radius: 20px;
+    color: greenyellow;
+}
+.login a{
+    color: #00000085;
+}
+.login span a i{
+    margin-left: 80%;
+    margin-top: 5%;
+}
